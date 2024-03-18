@@ -1,0 +1,46 @@
+﻿@page "/FormInvoice"
+@using Blazored.FluentValidation
+@using BlazorFormValidation.Client.Data
+
+<h1>FormInvoice</h1>
+<hr />
+<EditForm Model="@Employee" OnValidSubmit="@SubmitValidForm">
+    <FluentValidationValidator/>
+    <ValidationSummary/>
+    <div class="form-group">
+        <label class="col-form-label"> Name: </label>
+        <div class="col-md-6">
+            <InputText @bind-Value="@Employee.Name"></InputText>
+            <ValidationMessage For="@(()=> Employee.Name)"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-form-label"> Age: </label>
+        <div class="col-md-6">
+            <InputNumber @bind-Value="@Employee.Age"></InputNumber>
+            <ValidationMessage For="@(()=> Employee.Age)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-form-label">Correo: </label>
+        <div class="col-md-6">
+            <InputText @bind-Value="@Employee.MainEmail"></InputText>
+            <ValidationMessage For="@(()=> Employee.MainEmail)" />
+        </div>
+    </div>
+    <button class="btn btn-success" type="submit"> Enviar</button>
+    <label>@message</label>
+
+</EditForm>
+
+@code {
+    Employee Employee = new Employee();
+    string message;
+
+    void SubmitValidForm()
+    {
+        message="Submitted Succesfully!";
+        
+    }
+
+}

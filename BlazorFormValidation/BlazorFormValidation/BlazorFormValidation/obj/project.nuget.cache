@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GwfCLcgpU3eqvXZ6MVIM3apOPGeBDvWFrg2bl6AY8Hi2z82/VC33J0e0G2qV/s8UMf5yY2wcfQnSVLT5gRaFUA==",
+  "dgSpecHash": "lENYrPV2FBqSl8LV07CxZl9RWNmmuh+zqLf9xMqPaJbI6DkqF75ZETbt4Q7D5doL7NNQguNsI30EwYiSOIRvig==",
   "success": true,
   "projectFilePath": "C:\\Users\\cesarpinat\\Documents\\BlazorFormValidation\\BlazorFormValidation\\BlazorFormValidation\\BlazorFormValidation\\BlazorFormValidation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cesarpinat\\.nuget\\packages\\blazored.fluentvalidation\\2.1.0\\blazored.fluentvalidation.2.1.0.nupkg.sha512",
+    "C:\\Users\\cesarpinat\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\cesarpinat\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
     "C:\\Users\\cesarpinat\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
     "C:\\Users\\cesarpinat\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.3\\microsoft.aspnetcore.components.analyzers.8.0.3.nupkg.sha512",
